@@ -23,4 +23,4 @@ window.onscroll = function() {
 
 const copyrightYears = document.querySelector("#tahun span");
 let getYear = new Date().getFullYear();
-copyrightYears.innerHTML = getYear;
+copyrightYears.innerHTML = getYear.toString();
