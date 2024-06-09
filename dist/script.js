@@ -20,3 +20,7 @@ window.onscroll = function() {
         header.classList.remove("navbar-fixed");
     }
 }
+
+const copyrightYears = document.querySelector("#tahun span");
+let getYear = new Date().getFullYear();
+copyrightYears.innerHTML = getYear;
