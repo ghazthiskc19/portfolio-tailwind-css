@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class', // kalo valuenya media -> bakalan nyesuain sama sistem
   content: ['./index.html'], // untuk melacak perubahan file
   theme: {
     container : {
